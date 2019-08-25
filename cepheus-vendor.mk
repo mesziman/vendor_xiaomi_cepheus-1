@@ -132,4 +132,10 @@ PRODUCT_PACKAGES += \
     dpmserviceapp \
     ims \
     qcrilmsgtunnel \
-    chargeonlymode
+    chargeonlymode \
+    WfdCommon \
+    WfdService \
+    com.qti.location.sdk \
+    QPerformance \
+    UxPerformance
+
