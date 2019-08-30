@@ -60,7 +60,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/cepheus/proprietary/etc/wfdconfigsink.xml:system/etc/wfdconfigsink.xml \
     vendor/xiaomi/cepheus/proprietary/framework/QtiTelephonyServicelibrary.jar:system/framework/QtiTelephonyServicelibrary.jar \
     vendor/xiaomi/cepheus/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
-    vendor/xiaomi/cepheus/proprietary/framework/com.android.mediadrm.signer.jar:system/framework/com.android.mediadrm.signer.jar \
     vendor/xiaomi/cepheus/proprietary/framework/com.qti.dpmframework.jar:system/framework/com.qti.dpmframework.jar \
     vendor/xiaomi/cepheus/proprietary/framework/com.qti.snapdragon.sdk.display.jar:system/framework/com.qti.snapdragon.sdk.display.jar \
     vendor/xiaomi/cepheus/proprietary/framework/com.qualcomm.qti.imscmservice-V2.0-java.jar:system/framework/com.qualcomm.qti.imscmservice-V2.0-java.jar \
@@ -243,12 +242,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/cepheus/proprietary/lib64/vendor.display.color@1.0.so:system/lib64/vendor.display.color@1.0.so \
     vendor/xiaomi/cepheus/proprietary/lib64/vendor.display.color@1.1.so:system/lib64/vendor.display.color@1.1.so \
     vendor/xiaomi/cepheus/proprietary/lib64/vendor.display.color@1.2.so:system/lib64/vendor.display.color@1.2.so \
-    vendor/xiaomi/cepheus/proprietary/lib64/vendor.display.config@1.0.so:system/lib64/vendor.display.config@1.0.so \
-    vendor/xiaomi/cepheus/proprietary/lib64/vendor.display.config@1.1.so:system/lib64/vendor.display.config@1.1.so \
-    vendor/xiaomi/cepheus/proprietary/lib64/vendor.display.config@1.2.so:system/lib64/vendor.display.config@1.2.so \
-    vendor/xiaomi/cepheus/proprietary/lib64/vendor.display.config@1.3.so:system/lib64/vendor.display.config@1.3.so \
-    vendor/xiaomi/cepheus/proprietary/lib64/vendor.display.config@1.4.so:system/lib64/vendor.display.config@1.4.so \
-    vendor/xiaomi/cepheus/proprietary/lib64/vendor.display.config@1.5.so:system/lib64/vendor.display.config@1.5.so \
     vendor/xiaomi/cepheus/proprietary/lib64/vendor.display.postproc@1.0.so:system/lib64/vendor.display.postproc@1.0.so \
     vendor/xiaomi/cepheus/proprietary/lib64/vendor.qti.esepowermanager@1.0.so:system/lib64/vendor.qti.esepowermanager@1.0.so \
     vendor/xiaomi/cepheus/proprietary/lib64/vendor.qti.gnss@1.0.so:system/lib64/vendor.qti.gnss@1.0.so \
