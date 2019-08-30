@@ -31,12 +31,9 @@ PRODUCT_PACKAGES += \
     libprotobuf-java_mls
 
 PRODUCT_COPY_FILES += \
-    vendor/xiaomi/cepheus/proprietary/app/embms/embms.apk:system/app/embms/embms.apk \
-    vendor/xiaomi/cepheus/proprietary/app/imssettings/imssettings.apk:system/app/imssettings/imssettings.apk \
     vendor/xiaomi/cepheus/proprietary/bin/dpmd:system/bin/dpmd \
     vendor/xiaomi/cepheus/proprietary/bin/perfservice:system/bin/perfservice \
     vendor/xiaomi/cepheus/proprietary/bin/wfdservice:system/bin/wfdservice \
-    vendor/xiaomi/cepheus/proprietary/bin/wifidisplayhalservice:system/bin/wifidisplayhalservice \
     vendor/xiaomi/cepheus/proprietary/etc/dpm/dpm.conf:system/etc/dpm/dpm.conf \
     vendor/xiaomi/cepheus/proprietary/etc/init/dpmd.rc:system/etc/init/dpmd.rc \
     vendor/xiaomi/cepheus/proprietary/etc/init/perfservice.rc:system/etc/init/perfservice.rc \
@@ -252,25 +249,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/cepheus/proprietary/lib64/librcc.so:system/lib64/librcc.so \
     vendor/xiaomi/cepheus/proprietary/lib64/libsd_sdk_display.so:system/lib64/libsd_sdk_display.so \
     vendor/xiaomi/cepheus/proprietary/lib64/libsdm-disp-apis.so:system/lib64/libsdm-disp-apis.so \
-    vendor/xiaomi/cepheus/proprietary/lib64/libwfdaac.so:system/lib64/libwfdaac.so \
-    vendor/xiaomi/cepheus/proprietary/lib64/libwfdavenhancements.so:system/lib64/libwfdavenhancements.so \
     vendor/xiaomi/cepheus/proprietary/lib64/libwfdclient.so:system/lib64/libwfdclient.so \
-    vendor/xiaomi/cepheus/proprietary/lib64/libwfdcodecv4l2.so:system/lib64/libwfdcodecv4l2.so \
-    vendor/xiaomi/cepheus/proprietary/lib64/libwfdcommonutils.so:system/lib64/libwfdcommonutils.so \
-    vendor/xiaomi/cepheus/proprietary/lib64/libwfdconfigutils.so:system/lib64/libwfdconfigutils.so \
-    vendor/xiaomi/cepheus/proprietary/lib64/libwfdmminterface.so:system/lib64/libwfdmminterface.so \
-    vendor/xiaomi/cepheus/proprietary/lib64/libwfdmmservice.so:system/lib64/libwfdmmservice.so \
-    vendor/xiaomi/cepheus/proprietary/lib64/libwfdmmsink.so:system/lib64/libwfdmmsink.so \
-    vendor/xiaomi/cepheus/proprietary/lib64/libwfdmmsrc.so:system/lib64/libwfdmmsrc.so \
     vendor/xiaomi/cepheus/proprietary/lib64/libwfdnative.so:system/lib64/libwfdnative.so \
-    vendor/xiaomi/cepheus/proprietary/lib64/libwfdrtsp.so:system/lib64/libwfdrtsp.so \
-    vendor/xiaomi/cepheus/proprietary/lib64/libwfdservice.so:system/lib64/libwfdservice.so \
-    vendor/xiaomi/cepheus/proprietary/lib64/libwfdsm.so:system/lib64/libwfdsm.so \
-    vendor/xiaomi/cepheus/proprietary/lib64/libwfduibcinterface.so:system/lib64/libwfduibcinterface.so \
-    vendor/xiaomi/cepheus/proprietary/lib64/libwfduibcsink.so:system/lib64/libwfduibcsink.so \
-    vendor/xiaomi/cepheus/proprietary/lib64/libwfduibcsinkinterface.so:system/lib64/libwfduibcsinkinterface.so \
-    vendor/xiaomi/cepheus/proprietary/lib64/libwfduibcsrc.so:system/lib64/libwfduibcsrc.so \
-    vendor/xiaomi/cepheus/proprietary/lib64/libwfduibcsrcinterface.so:system/lib64/libwfduibcsrcinterface.so \
     vendor/xiaomi/cepheus/proprietary/lib64/vendor.display.color@1.0.so:system/lib64/vendor.display.color@1.0.so \
     vendor/xiaomi/cepheus/proprietary/lib64/vendor.display.color@1.1.so:system/lib64/vendor.display.color@1.1.so \
     vendor/xiaomi/cepheus/proprietary/lib64/vendor.display.color@1.2.so:system/lib64/vendor.display.color@1.2.so \
