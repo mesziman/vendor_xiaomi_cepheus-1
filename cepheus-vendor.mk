@@ -21,40 +21,29 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/cepheus/proprietary/etc/permissions/com.qti.snapdragon.sdk.display.xml:system/etc/permissions/com.qti.snapdragon.sdk.display.xml \
     vendor/xiaomi/cepheus/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/xiaomi/cepheus/proprietary/etc/permissions/com.qualcomm.qti.imscmservice.xml:system/etc/permissions/com.qualcomm.qti.imscmservice.xml \
-    vendor/xiaomi/cepheus/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
     vendor/xiaomi/cepheus/proprietary/etc/permissions/izat.xt.srv.xml:system/etc/permissions/izat.xt.srv.xml \
     vendor/xiaomi/cepheus/proprietary/etc/permissions/privapp-permissions-com.qualcomm.location.xml:system/etc/permissions/privapp-permissions-com.qualcomm.location.xml \
     vendor/xiaomi/cepheus/proprietary/etc/permissions/qti_libpermissions.xml:system/etc/permissions/qti_libpermissions.xml \
     vendor/xiaomi/cepheus/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
     vendor/xiaomi/cepheus/proprietary/etc/sysconfig/qti_whitelist.xml:system/etc/sysconfig/qti_whitelist.xml \
-    vendor/xiaomi/cepheus/proprietary/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
     vendor/xiaomi/cepheus/proprietary/framework/com.qti.snapdragon.sdk.display.jar:system/framework/com.qti.snapdragon.sdk.display.jar \
     vendor/xiaomi/cepheus/proprietary/framework/izat.xt.srv.jar:system/framework/izat.xt.srv.jar \
-    vendor/xiaomi/cepheus/proprietary/framework/qcnvitems.jar:system/framework/qcnvitems.jar \
     vendor/xiaomi/cepheus/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
-    vendor/xiaomi/cepheus/proprietary/framework/tcmiface.jar:system/framework/tcmiface.jar \
     vendor/xiaomi/cepheus/proprietary/framework/vendor.xiaomi.hardware.misys-V1.0-java.jar:system/framework/vendor.xiaomi.hardware.misys-V1.0-java.jar \
     vendor/xiaomi/cepheus/proprietary/framework/vendor.xiaomi.hardware.misys-V2.0-java.jar:system/framework/vendor.xiaomi.hardware.misys-V2.0-java.jar \
     vendor/xiaomi/cepheus/proprietary/framework/vendor.xiaomi.hardware.mtdservice-V1.0-java.jar:system/framework/vendor.xiaomi.hardware.mtdservice-V1.0-java.jar \
     vendor/xiaomi/cepheus/proprietary/framework/vendor.xiaomi.hardware.mtdservice-V1.1-java.jar:system/framework/vendor.xiaomi.hardware.mtdservice-V1.1-java.jar \
     vendor/xiaomi/cepheus/proprietary/framework/vendor.xiaomi.hardware.vsimapp-V1.0-java.jar:system/framework/vendor.xiaomi.hardware.vsimapp-V1.0-java.jar \
-    vendor/xiaomi/cepheus/proprietary/lib/extractors/libmmparser.so:system/lib/extractors/libmmparser.so \
     vendor/xiaomi/cepheus/proprietary/lib/liblocationservice_jni.so:system/lib/liblocationservice_jni.so \
     vendor/xiaomi/cepheus/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
     vendor/xiaomi/cepheus/proprietary/lib64/libdiag_system.so:system/lib64/libdiag_system.so \
     vendor/xiaomi/cepheus/proprietary/lib/libdiag_system.so:system/lib/libdiag_system.so \
     vendor/xiaomi/cepheus/proprietary/lib/libmmrtpdecoder.so:system/lib/libmmrtpdecoder.so \
     vendor/xiaomi/cepheus/proprietary/lib/libmmrtpencoder.so:system/lib/libmmrtpencoder.so \
-    vendor/xiaomi/cepheus/proprietary/lib/librcc.so:system/lib/librcc.so \
-    vendor/xiaomi/cepheus/proprietary/lib/vendor.xiaomi.hardware.fingerprintextension@1.0.so:system/lib/vendor.xiaomi.hardware.fingerprintextension@1.0.so \
-    vendor/xiaomi/cepheus/proprietary/lib64/extractors/libmmparser.so:system/lib64/extractors/libmmparser.so \
     vendor/xiaomi/cepheus/proprietary/lib64/liblocationservice_jni.so:system/lib64/liblocationservice_jni.so \
     vendor/xiaomi/cepheus/proprietary/lib64/libmmosal.so:system/lib64/libmmosal.so \
     vendor/xiaomi/cepheus/proprietary/lib64/libmmrtpdecoder.so:system/lib64/libmmrtpdecoder.so \
     vendor/xiaomi/cepheus/proprietary/lib64/libmmrtpencoder.so:system/lib64/libmmrtpencoder.so \
-    vendor/xiaomi/cepheus/proprietary/lib64/librcc.so:system/lib64/librcc.so \
-    vendor/xiaomi/cepheus/proprietary/lib64/vendor.xiaomi.hardware.fingerprintextension@1.0.so:system/lib64/vendor.xiaomi.hardware.fingerprintextension@1.0.so \
-    vendor/xiaomi/cepheus/proprietary/priv-app/com.qualcomm.location/com.qualcomm.location.apk:system/priv-app/com.qualcomm.location/com.qualcomm.location.apk \
     vendor/xiaomi/cepheus/proprietary/product/app/QtiTelephonyService/QtiTelephonyService.apk:system/product/app/QtiTelephonyService/QtiTelephonyService.apk \
     vendor/xiaomi/cepheus/proprietary/product/app/uceShimService/uceShimService.apk:system/product/app/uceShimService/uceShimService.apk \
     vendor/xiaomi/cepheus/proprietary/product/bin/dpmd:system/product/bin/dpmd \
@@ -115,7 +104,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/cepheus/proprietary/product/lib/com.qualcomm.qti.imscmservice@2.2.so:system/product/lib/com.qualcomm.qti.imscmservice@2.2.so \
     vendor/xiaomi/cepheus/proprietary/product/lib/com.qualcomm.qti.uceservice@2.0.so:system/product/lib/com.qualcomm.qti.uceservice@2.0.so \
     vendor/xiaomi/cepheus/proprietary/product/lib/com.qualcomm.qti.uceservice@2.1.so:system/product/lib/com.qualcomm.qti.uceservice@2.1.so \
-    vendor/xiaomi/cepheus/proprietary/product/lib/com.qualcomm.qti.wifidisplayhal@1.0.so:system/product/lib/com.qualcomm.qti.wifidisplayhal@1.0.so \
     vendor/xiaomi/cepheus/proprietary/product/lib/lib-imsvideocodec.so:system/product/lib/lib-imsvideocodec.so \
     vendor/xiaomi/cepheus/proprietary/product/lib/lib-imsvt.so:system/product/lib/lib-imsvt.so \
     vendor/xiaomi/cepheus/proprietary/product/lib/lib-imsvtextutils.so:system/product/lib/lib-imsvtextutils.so \
@@ -195,7 +183,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/cepheus/proprietary/product/lib64/com.qualcomm.qti.imscmservice@2.2.so:system/product/lib64/com.qualcomm.qti.imscmservice@2.2.so \
     vendor/xiaomi/cepheus/proprietary/product/lib64/com.qualcomm.qti.uceservice@2.0.so:system/product/lib64/com.qualcomm.qti.uceservice@2.0.so \
     vendor/xiaomi/cepheus/proprietary/product/lib64/com.qualcomm.qti.uceservice@2.1.so:system/product/lib64/com.qualcomm.qti.uceservice@2.1.so \
-    vendor/xiaomi/cepheus/proprietary/product/lib64/com.qualcomm.qti.wifidisplayhal@1.0.so:system/product/lib64/com.qualcomm.qti.wifidisplayhal@1.0.so \
     vendor/xiaomi/cepheus/proprietary/product/lib64/lib-imsvideocodec.so:system/product/lib64/lib-imsvideocodec.so \
     vendor/xiaomi/cepheus/proprietary/product/lib64/lib-imsvt.so:system/product/lib64/lib-imsvt.so \
     vendor/xiaomi/cepheus/proprietary/product/lib64/lib-imsvtextutils.so:system/product/lib64/lib-imsvtextutils.so \
