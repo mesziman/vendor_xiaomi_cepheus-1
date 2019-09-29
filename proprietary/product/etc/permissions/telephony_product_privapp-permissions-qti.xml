@@ -1,86 +1,86 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--
-  ~ Copyright (c) 2019 Qualcomm Technologies, Inc.
-  ~ All Rights Reserved.
-  ~ Confidential and Proprietary - Qualcomm Technologies, Inc.
--->
-
-<!--
-  ~ Copyright (c) 2017, The Linux Foundation. All rights reserved.
-
-  ~ Not a Contribution.
--->
-
-<!--
-  ~ Copyright (C) 2016 The Android Open Source Project
-  ~
-  ~ Licensed under the Apache License, Version 2.0 (the "License");
-  ~ you may not use this file except in compliance with the License.
-  ~ You may obtain a copy of the License at
-  ~
-  ~      http://www.apache.org/licenses/LICENSE-2.0
-  ~
-  ~ Unless required by applicable law or agreed to in writing, software
-  ~ distributed under the License is distributed on an "AS IS" BASIS,
-  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-  ~ See the License for the specific language governing permissions and
-  ~ limitations under the License
-  -->
-
-<!--
-This XML file declares which signature|privileged permissions should be
-granted to privileged applications on QTI devices.
-It allows additional grants on top of privapp-permissions-platform.xml
--->
-
-<permissions>
-
-    <privapp-permissions package="com.qualcomm.qcrilmsgtunnel">
-        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
-    </privapp-permissions>
-
-    <privapp-permissions package="org.codeaurora.dialer">
-        <permission name="android.permission.ALLOW_ANY_CODEC_FOR_PLAYBACK"/>
-        <permission name="android.permission.CONTROL_INCALL_EXPERIENCE"/>
-        <permission name="android.permission.GET_ACCOUNTS_PRIVILEGED"/>
-        <permission name="android.permission.MODIFY_PHONE_STATE"/>
-        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
-        <permission name="android.permission.STATUS_BAR"/>
-        <permission name="android.permission.STOP_APP_SWITCHES"/>
-        <permission name="com.android.voicemail.permission.READ_VOICEMAIL"/>
-        <permission name="com.android.voicemail.permission.WRITE_VOICEMAIL"/>
-    </privapp-permissions>
-
-    <privapp-permissions package="org.codeaurora.qti.qtiNetworkApp">
-        <permission name="android.permission.MODIFY_PHONE_STATE"/>
-    </privapp-permissions>
-
-    <privapp-permissions package="org.codeaurora.ims">
-        <permission name="android.permission.READ_PRECISE_PHONE_STATE"/>
-        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
-        <permission name="android.permission.SUBSTITUTE_NOTIFICATION_APP_NAME"/>
-    </privapp-permissions>
-
-    <privapp-permissions package="com.qualcomm.qti.carrierswitch">
-        <permission name="android.permission.REBOOT"/>
-    </privapp-permissions>
-
-    <privapp-permissions package="com.android.mms">
-        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
-        <permission name="android.permission.WRITE_APN_SETTINGS"/>
-    </privapp-permissions>
-
-    <privapp-permissions package="com.qualcomm.qti.callenhancement">
-        <permission name="android.permission.RECORD_AUDIO" />
-        <permission name="android.permission.CAPTURE_AUDIO_OUTPUT" />
-        <permission name="android.permission.READ_EXTERNAL_STORAGE" />
-        <permission name="android.permission.WRITE_EXTERNAL_STORAGE" />
-        <permission name="android.permission.READ_BLOCKED_NUMBERS" />
-        <permission name="android.permission.VIBRATE" />
-    </privapp-permissions>
-
-    <privapp-permissions package="org.codeaurora.qti.nrNetworkSettingApp">
-        <permission name="android.permission.MODIFY_PHONE_STATE"/>
-    </privapp-permissions>
-
-</permissions>
+1:<?xml version="1.0" encoding="utf-8"?>
+2:<!--
+3:  ~ Copyright (c) 2019 Qualcomm Technologies, Inc.
+4:  ~ All Rights Reserved.
+5:  ~ Confidential and Proprietary - Qualcomm Technologies, Inc.
+6:-->
+7:
+8:<!--
+9:  ~ Copyright (c) 2017, The Linux Foundation. All rights reserved.
+10:
+11:  ~ Not a Contribution.
+12:-->
+13:
+14:<!--
+15:  ~ Copyright (C) 2016 The Android Open Source Project
+16:  ~
+17:  ~ Licensed under the Apache License, Version 2.0 (the "License");
+18:  ~ you may not use this file except in compliance with the License.
+19:  ~ You may obtain a copy of the License at
+20:  ~
+21:  ~      http://www.apache.org/licenses/LICENSE-2.0
+22:  ~
+23:  ~ Unless required by applicable law or agreed to in writing, software
+24:  ~ distributed under the License is distributed on an "AS IS" BASIS,
+25:  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+26:  ~ See the License for the specific language governing permissions and
+27:  ~ limitations under the License
+28:  -->
+29:
+30:<!--
+31:This XML file declares which signature|privileged permissions should be
+32:granted to privileged applications on QTI devices.
+33:It allows additional grants on top of privapp-permissions-platform.xml
+34:-->
+35:
+36:<permissions>
+37:
+38:    <privapp-permissions package="com.qualcomm.qcrilmsgtunnel">
+39:        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+40:    </privapp-permissions>
+41:
+42:    <privapp-permissions package="org.codeaurora.dialer">
+43:        <permission name="android.permission.ALLOW_ANY_CODEC_FOR_PLAYBACK"/>
+44:        <permission name="android.permission.CONTROL_INCALL_EXPERIENCE"/>
+45:        <permission name="android.permission.GET_ACCOUNTS_PRIVILEGED"/>
+46:        <permission name="android.permission.MODIFY_PHONE_STATE"/>
+47:        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+48:        <permission name="android.permission.STATUS_BAR"/>
+49:        <permission name="android.permission.STOP_APP_SWITCHES"/>
+50:        <permission name="com.android.voicemail.permission.READ_VOICEMAIL"/>
+51:        <permission name="com.android.voicemail.permission.WRITE_VOICEMAIL"/>
+52:    </privapp-permissions>
+53:
+54:    <privapp-permissions package="org.codeaurora.qti.qtiNetworkApp">
+55:        <permission name="android.permission.MODIFY_PHONE_STATE"/>
+56:    </privapp-permissions>
+57:
+58:    <privapp-permissions package="org.codeaurora.ims">
+59:        <permission name="android.permission.READ_PRECISE_PHONE_STATE"/>
+60:        <permission name="android.permission.INTERACT_ACROSS_USERS"/>
+61:        <permission name="android.permission.SUBSTITUTE_NOTIFICATION_APP_NAME"/>
+62:    </privapp-permissions>
+63:
+64:    <privapp-permissions package="com.qualcomm.qti.carrierswitch">
+65:        <permission name="android.permission.REBOOT"/>
+66:    </privapp-permissions>
+67:
+68:    <privapp-permissions package="com.android.mms">
+69:        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+70:        <permission name="android.permission.WRITE_APN_SETTINGS"/>
+71:    </privapp-permissions>
+72:
+73:    <privapp-permissions package="com.qualcomm.qti.callenhancement">
+74:        <permission name="android.permission.RECORD_AUDIO" />
+75:        <permission name="android.permission.CAPTURE_AUDIO_OUTPUT" />
+76:        <permission name="android.permission.READ_EXTERNAL_STORAGE" />
+77:        <permission name="android.permission.WRITE_EXTERNAL_STORAGE" />
+78:        <permission name="android.permission.READ_BLOCKED_NUMBERS" />
+79:        <permission name="android.permission.VIBRATE" />
+80:    </privapp-permissions>
+81:
+82:    <privapp-permissions package="org.codeaurora.qti.nrNetworkSettingApp">
+83:        <permission name="android.permission.MODIFY_PHONE_STATE"/>
+84:    </privapp-permissions>
+85:
+86:</permissions>

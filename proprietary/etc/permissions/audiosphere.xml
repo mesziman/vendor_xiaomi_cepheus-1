@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?>
-    <!--
-        Copyright (c) 2016, Qualcomm Technologies, Inc.
-        All Rights Reserved.
-        Confidential and Proprietary - Qualcomm Technologies, Inc.
-    -->
-
-<permissions>
-    <library name="com.qualcomm.qti.audiosphere"
-            file="/system/framework/audiosphere.jar" />
-</permissions>
+1:<?xml version="1.0" encoding="utf-8"?>
+2:    <!--
+3:        Copyright (c) 2016, Qualcomm Technologies, Inc.
+4:        All Rights Reserved.
+5:        Confidential and Proprietary - Qualcomm Technologies, Inc.
+6:    -->
+7:
+8:<permissions>
+9:    <library name="com.qualcomm.qti.audiosphere"
+10:            file="/system/framework/audiosphere.jar" />
+11:</permissions>

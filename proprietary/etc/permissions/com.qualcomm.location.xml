@@ -1,24 +1,24 @@
-<?xml version="1.0" encoding="utf-8"?>
-
-<!---******************************************************************************
-* @file    com.qualcomm.location.xml
-* @brief   configuration file for permission mapping
-*  Copyright (c) 2012 Qualcomm Atheros, Inc.
-*  All Rights Reserved.
-*  Qualcomm Atheros Confidential and Proprietary.
-*  *****************************************************************************-->
-
-<permissions>
-
-<library name="services.core" file="/system/framework/services.jar"/>
-
-<permission name="com.qualcomm.permission.IZAT" >
-    <group gid="gps" />
-    <group gid="system" />
-    <group gid="diag" />
-    <group gid="sdcard_rw" />
-    <group gid="media_rw" />
-    <group gid="wifi" />
-</permission>
-
-</permissions>
+1:<?xml version="1.0" encoding="utf-8"?>
+2:
+3:<!---******************************************************************************
+4:* @file    com.qualcomm.location.xml
+5:* @brief   configuration file for permission mapping
+6:*  Copyright (c) 2012 Qualcomm Atheros, Inc.
+7:*  All Rights Reserved.
+8:*  Qualcomm Atheros Confidential and Proprietary.
+9:*  *****************************************************************************-->
+10:
+11:<permissions>
+12:
+13:<library name="services.core" file="/system/framework/services.jar"/>
+14:
+15:<permission name="com.qualcomm.permission.IZAT" >
+16:    <group gid="gps" />
+17:    <group gid="system" />
+18:    <group gid="diag" />
+19:    <group gid="sdcard_rw" />
+20:    <group gid="media_rw" />
+21:    <group gid="wifi" />
+22:</permission>
+23:
+24:</permissions>
