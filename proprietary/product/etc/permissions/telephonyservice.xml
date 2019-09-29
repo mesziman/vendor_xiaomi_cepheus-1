@@ -1,11 +1,11 @@
-1:<?xml version="1.0" encoding="utf-8"?>
-2:
-3:<!--
-4:Copyright (c) 2014 Qualcomm Technologies, Inc.  All Rights Reserved.
-5:Qualcomm Technologies Proprietary and Confidential.
-6:-->
-7:
-8:<permissions>
-9:<library name="com.qualcomm.qti.QtiTelephonyServicelibrary"
-10:         file="/system/product/framework/QtiTelephonyServicelibrary.jar"/>
-11:</permissions>
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+Copyright (c) 2014 Qualcomm Technologies, Inc.  All Rights Reserved.
+Qualcomm Technologies Proprietary and Confidential.
+-->
+
+<permissions>
+<library name="com.qualcomm.qti.QtiTelephonyServicelibrary"
+         file="/system/product/framework/QtiTelephonyServicelibrary.jar"/>
+</permissions>

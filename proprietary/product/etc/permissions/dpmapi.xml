@@ -1,6 +1,6 @@
-1:<?xml version="1.0" encoding="utf-8"?>
-2:<!--Copyright (c) 2014, 2019 Qualcomm Technologies, Inc.  All Rights Reserved. Qualcomm Technologies Proprietary and Confidential.-->
-3:<permissions>
-4:    <library name="com.qti.dpmapi"
-5:        file="/system/product/framework/dpmapi.jar"/>
-6:</permissions>
+<?xml version="1.0" encoding="utf-8"?>
+<!--Copyright (c) 2014, 2019 Qualcomm Technologies, Inc.  All Rights Reserved. Qualcomm Technologies Proprietary and Confidential.-->
+<permissions>
+    <library name="com.qti.dpmapi"
+        file="/system/product/framework/dpmapi.jar"/>
+</permissions>

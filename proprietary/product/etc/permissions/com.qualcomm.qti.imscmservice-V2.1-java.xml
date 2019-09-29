@@ -1,11 +1,11 @@
-1:<?xml version="1.0" encoding="UTF-8"?>
-2:
-3:<!-- Copyright (c) 2018 Qualcomm Technologies, Inc.
-4:     All Rights Reserved.
-5:     Confidential and Proprietary - Qualcomm Technologies, Inc. -->
-6:
-7:<permissions>
-8:
-9:    <library name="com.qualcomm.qti.imscmservice-V2.1-java" file="/system/product/framework/com.qualcomm.qti.imscmservice-V2.1-java.jar" />
-10:
-11:</permissions>
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Copyright (c) 2018 Qualcomm Technologies, Inc.
+     All Rights Reserved.
+     Confidential and Proprietary - Qualcomm Technologies, Inc. -->
+
+<permissions>
+
+    <library name="com.qualcomm.qti.imscmservice-V2.1-java" file="/system/product/framework/com.qualcomm.qti.imscmservice-V2.1-java.jar" />
+
+</permissions>
