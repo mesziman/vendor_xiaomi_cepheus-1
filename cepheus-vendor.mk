@@ -256,3 +256,16 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/cepheus/proprietary/product/lib64/vendor.qti.latency@2.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.latency@2.0.so \
     vendor/xiaomi/cepheus/proprietary/product/lib64/vendor.qti.voiceprint@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.voiceprint@1.0.so \
     vendor/xiaomi/cepheus/proprietary/rootfs/sbin/chargeonlymode:system/rootfs/sbin/chargeonlymode
+
+
+PRODUCT_PACKAGES += \
+    QtiSystemService \
+    QtiTelephonyService \
+    datastatusnotification \
+    embms \
+    uceShimService \
+    dpmserviceapp \
+    ims \
+    qcrilmsgtunnel \
+    chargeonlymode
+
