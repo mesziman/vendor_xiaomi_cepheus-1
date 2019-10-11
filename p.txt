@@ -1,4 +1,11 @@
 etc/perf/wlc_model.tflite
+lib/libantradio.so
+lib64/libantradio.so
+product/lib/com.qualcomm.qti.ant@1.0.so
+product/lib64/com.qualcomm.qti.ant@1.0.so
+etc/cne/Nexus/ATT/ATT_profiles.xml
+etc/cne/Nexus/ROW/ROW_profiles.xml
+etc/cne/Nexus/VZW/VZW_profiles.xml
 etc/permissions/audiosphere.xml
 etc/permissions/com.qti.location.sdk.xml
 etc/permissions/com.qti.snapdragon.sdk.display.xml
