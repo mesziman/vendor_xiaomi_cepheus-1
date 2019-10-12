@@ -105,7 +105,8 @@ product/lib/vendor.qti.hardware.data.qmi@1.0.so
 product/lib64/vendor.qti.hardware.data.iwlan@1.0.so
 product/lib64/vendor.qti.hardware.data.qmi@1.0.so
 
-
+product/app/imssettings/imssettings.apk
+product/app/embms/embms.apk
 product/etc/permissions/embms.xml
 product/framework/embmslibrary.jar
 product/lib/com.quicinc.cne.api@1.0.so
