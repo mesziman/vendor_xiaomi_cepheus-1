@@ -63,6 +63,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/cepheus/proprietary/product/app/QtiSystemService/QtiSystemService.apk:system/product/app/QtiSystemService/QtiSystemService.apk \
     vendor/xiaomi/cepheus/proprietary/product/app/QtiTelephonyService/QtiTelephonyService.apk:system/product/app/QtiTelephonyService/QtiTelephonyService.apk \
     vendor/xiaomi/cepheus/proprietary/product/app/datastatusnotification/datastatusnotification.apk:system/product/app/datastatusnotification/datastatusnotification.apk \
+    vendor/xiaomi/cepheus/proprietary/product/app/embms/embms.apk:system/product/app/embms/embms.apk \
+    vendor/xiaomi/cepheus/proprietary/product/app/imssettings/imssettings.apk:system/product/app/imssettings/imssettings.apk \
     vendor/xiaomi/cepheus/proprietary/product/app/uceShimService/uceShimService.apk:system/product/app/uceShimService/uceShimService.apk \
     vendor/xiaomi/cepheus/proprietary/product/bin/dpmd:system/product/bin/dpmd \
     vendor/xiaomi/cepheus/proprietary/product/etc/dpm/dpm.conf:system/product/etc/dpm/dpm.conf \
