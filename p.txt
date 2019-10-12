@@ -1,4 +1,5 @@
 etc/perf/wlc_model.tflite
+etc/fd.conf
 lib/libantradio.so
 lib64/libantradio.so
 product/lib/com.qualcomm.qti.ant@1.0.so
