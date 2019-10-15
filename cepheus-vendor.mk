@@ -48,7 +48,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/cepheus/proprietary/lib64/extractors/libmmparserextractor.so:system/lib64/extractors/libmmparserextractor.so \
     vendor/xiaomi/cepheus/proprietary/lib64/libantradio.so:system/lib64/libantradio.so \
     vendor/xiaomi/cepheus/proprietary/lib64/libdiag_system.so:system/lib64/libdiag_system.so \
-    vendor/xiaomi/cepheus/proprietary/lib64/libdisplayconfig.so:system/lib64/libdisplayconfig.so \
     vendor/xiaomi/cepheus/proprietary/lib64/libdisplayfeature.so:system/lib64/libdisplayfeature.so \
     vendor/xiaomi/cepheus/proprietary/lib64/libdisplayfeatureservice.so:system/lib64/libdisplayfeatureservice.so \
     vendor/xiaomi/cepheus/proprietary/lib64/liblocationservice_jni.so:system/lib64/liblocationservice_jni.so \
