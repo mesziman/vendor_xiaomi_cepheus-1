@@ -296,3 +296,15 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/cepheus/proprietary/product/priv-app/ims/ims.apk:$(TARGET_COPY_OUT_PRODUCT)/priv-app/ims/ims.apk \
     vendor/xiaomi/cepheus/proprietary/product/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk:$(TARGET_COPY_OUT_PRODUCT)/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk \
     vendor/xiaomi/cepheus/proprietary/rootfs/sbin/chargeonlymode:$(TARGET_COPY_OUT_SYSTEM)/rootfs/sbin/chargeonlymode
+
+PRODUCT_PACKAGES += \
+    QtiSystemService \
+    QtiTelephonyService \
+    datastatusnotification \
+    embms \
+    uceShimService \
+    dpmserviceapp \
+    ims \
+    qcrilmsgtunnel \
+    chargeonlymode
+
