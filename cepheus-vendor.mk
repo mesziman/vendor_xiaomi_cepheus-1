@@ -295,6 +295,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/cepheus/proprietary/product/priv-app/dpmserviceapp/dpmserviceapp.apk:$(TARGET_COPY_OUT_PRODUCT)/priv-app/dpmserviceapp/dpmserviceapp.apk \
     vendor/xiaomi/cepheus/proprietary/product/priv-app/ims/ims.apk:$(TARGET_COPY_OUT_PRODUCT)/priv-app/ims/ims.apk \
     vendor/xiaomi/cepheus/proprietary/product/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk:$(TARGET_COPY_OUT_PRODUCT)/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk \
+    vendor/xiaomi/cepheus/proprietary/lib/soundfx/libvolumelistener.so:$(TARGET_COPY_OUT_SYSTEM)/lib/soundfx/libvolumelistener.so \
+    vendor/xiaomi/cepheus/proprietary/lib64/soundfx/libvolumelistener.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/soundfx/libvolumelistener.so \
     vendor/xiaomi/cepheus/proprietary/rootfs/sbin/chargeonlymode:$(TARGET_COPY_OUT_SYSTEM)/rootfs/sbin/chargeonlymode
 
 PRODUCT_PACKAGES += \
