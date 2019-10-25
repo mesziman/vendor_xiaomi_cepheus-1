@@ -2,6 +2,7 @@ etc/perf/wlc_model.tflite
 etc/fd.conf
 lib/libantradio.so
 lib64/libantradio.so
+product/etc/permissions/telephony_product_privapp-permissions-qti.xml
 product/lib/com.qualcomm.qti.ant@1.0.so
 product/lib64/com.qualcomm.qti.ant@1.0.so
 etc/cne/Nexus/ATT/ATT_profiles.xml
