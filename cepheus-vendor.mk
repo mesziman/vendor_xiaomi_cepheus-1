@@ -280,5 +280,6 @@ PRODUCT_PACKAGES += \
     dpmserviceapp \
     ims \
     qcrilmsgtunnel \
+    atfwd \
     chargeonlymode
 
